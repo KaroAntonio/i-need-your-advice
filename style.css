@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    border: 0px;
+    overflow: hidden;
+}
+
+#container {
+    overflow: scroll;
+    height: 100vh;
+    width: 100wh;
+    margin-right: -14px;
+}
+
+#content {
+    cursor:default;
+    padding-top: 40vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    width: 60vw;
+    text-align: center;
+    /*font-family: sans-serif;*/
+    /*font-family:monospace;*/
+    font-size: 30px;
+    color: black;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    
+}
+
+.bg_inner {
+    position: absolute;
+    top: 10vh;
+    
+}
+
+.line {
+    position: absolute;
+    font-size: 40px;
+    font-style: italic;
+    z-index: -1;
+}
+
+#menu {
+    position: absolute;
+}
+
+.menu_item {
+    position: absolute;
+    border-color: white;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.square {
+    z-index:-1;
+    position: absolute;
+    left: -1900px;
+    height: 300px;
+    width: 300px;
+    /*background: grey;*/
+    border: solid 2px black;
+}
+
+.poem_title {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.poem_body {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#info_button {
+    text-align: right;
+    width: 2vw;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    padding-top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: black;
+    /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}
+
+#info {
+    visibility: hidden;
+    padding-top: 10px;
+    font-size: 30px;
+    color: black;
+    /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+    width: 100vw;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    right: -47vw;
+    top: 50vh;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
